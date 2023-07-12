@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-topo {
+    position: relative;
+    padding: 35px 0px;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    width: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.topo-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+
+.topo-links a {
+    font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+}
+
+.secao-banner {
+    background-color: #2f86d6;
+}
+
+.container-banner {
+    position: relative;
+    padding: 180px 0px;
+}
+
+.container-banner div{
+    color: #fff;
+    width: 470px;
+}
+
+.container-banner div p {
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+.container-banner div h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+
+.container-banner img {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.secao-primeiro-anuncio {
+    background-color: #23303e;
+    color: #fff;
+}
+
+.container-primeiro-anuncio {
+    position: relative;
+    padding: 40px 0;
+}
+
+.container-primeiro-anuncio div {
+    width: 600px;
+}
+
+.container-primeiro-anuncio div h2 {
+    margin-bottom: 5px;
+}
+
+.container-primeiro-anuncio a {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2f86d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-primeiro-anuncio a img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.container-primeiro-anuncio a span {
+    margin-left: 30px;
+}
+
+.secao-informacoes {
+    padding: 100px 0px 200px 0px;
+    text-align: center;
+}
+
+.secao-informacoes h2 {
+    width: 900px;
+    font-size: 32px;
+    margin: 0px auto 60px;
+}
+
+.secao-informacoes h2 span {
+    color: #2f86d6;
+}
+
+.container-informacoes {
+    position: relative;
+    height: 240px;
+}
+
+.container-informacoes div {
+    width: 33%;
+    position: absolute;
+    top: 0;
+    padding:50px 10px;
+} 
+
+.card2 {
+    left: 343px;
+}
+
+.card3 {
+    right: 0;
+}
+
+.container-informacoes div img {
+    width: 100px;
+}
+
+.container-informacoes div h3 {
+    margin: 20px;
+}
+.tabela{background-color: #f1f3f7;
+padding-bottom: 100px;}
+.tabela h2{text-align: center;
+padding:80px;
+font-size:32px;}
+.tabela h2 span{color: #2f86d6}
+table {border-radius:4px;
+margin:auto;
+box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);}
+table thead th{text-align: center;
+padding:20px 0px;
+background-color:#fff;
+}
+table thead th h3{margin-bottom: 20px;}
+table thead th img{width:100px;
+margin:auto;}
+table thead th p{font-size:13px;
+padding:20px;
+color: #a89f9f;
+font-weight: 500;
+margin:auto;
+max-width: 150;}
+table tbody{text-align: center;
+font-size: 15px;
+font-weight: 300px;}
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;}
+.par{background-color: #fff;}
+.impar{background-color: #f6f6f6;}
+.faixa-azul{background-color:#2f86d6}
+.container-azul{padding:40px 0;
+    position: relative;
+}
+.container-azul h2{color: #fff;
+width:550px}
+.container-azul a{position: absolute;
+right: 0px;
+top:40px;
+text-decoration: none;
+font-size:18px;
+cursor:pointer;
+padding:20px;
+color:#fff;
+background-color: #233032;
+border-radius:4px}
+.container-azul a img{width: 20px;
+position: absolute;
+top: 25px;
+left:0;
+margin-left: 20px;}
+.container-azul a span{margin-left: 30px;}
+.rodape-logo{width:320px;
+margin:70px auto 40px;
+position: relative;}
+.rodape-logo img{width: 80px;}
+.rodape-logo div{position: absolute;
+top:0px;
+left:95px;}
+.rodape-logo p{font-weight: 400;
+color: #2f86d6;
+font-size:16px;}
+.container-contatos{text-align: center;
+    margin-bottom: 50px;
+background-color: #fff;}
+.container-contatos p{line-height: 40px;
+    font-weight: 600;
+font-size: 18px;}
+.container-copyright {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f1f3f7;
+}
+
+.container-copyright span {
+    color: #2f86d6;}
